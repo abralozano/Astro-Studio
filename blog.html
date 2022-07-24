@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro Studio</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="text-bg-dark">
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.svg" alt="Logo Astro Studio">
+                  </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end offcanvas-menu-bg " tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav mt-2">
+                            <li class="nav-item">
+                              <a class="nav-link offcanvas-menu-item" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link offcanvas-menu-item" href="portafolio.html">Portafolio</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link offcanvas-menu-item" href="servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link offcanvas-menu-item offcanvas-active" aria-current="page" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link offcanvas-menu-item" href="contacto.html">Contacto</a>
+                            </li>
+                            <li class="d-block d-xl-none d-lg-none offcanvas-menu-logo">
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="images/logo.svg" alt="Logo Astro Studio">
+                                  </a>
+                            </li>
+                          </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </nav>
+      </header>
+    <main>
+        <section>
+            <h2 class="text-center fw-bold py-5 py-5">BLOG</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-9 order-2 order-md-1">
+                        <div>
+                            <time class="position-absolute text-bg-dark p-1 mt-2">2022-02-15</time>
+                            <img src="images/blog1.png" alt="Aprende a usar Figma como todo un pro" class="img-fluid">
+                            <h3 class="fw-bold pt-3">Aprende a usar Figma como todo un pro</h3>
+                            <p class="text-break blog-text">Aprende la principal herramienta de diseño y prototipado colaborativo y en tiempo real: “Figma es lo mejor que me ha pasado en años, me he olvidado de usar...</p>
+                            <button class="btn button-astro-normal mb-3">Leer más</button>
+                        </div>
+                        <div>
+                            <time class="position-absolute text-bg-dark p-1 mt-2">2022-02-07</time>
+                            <img src="images/blog2.png" alt="5 pasos para armar un buen portafolio"  class="img-fluid">
+                            <h3 class="fw-bold pt-3">5 pasos para armar un buen portafolio</h3>
+                            <p class="text-break blog-text">Podría decir sin dudar que una de las cosas más importantes que debe tener un creativo es un portafolio sólido. Un portafolio que enamore al que lo vea es....</p>
+                            <button class="btn button-astro-normal mb-3">Leer más</button>
+                        </div>
+                        <div>
+                            <time class="position-absolute text-bg-dark p-1 mt-2">2022-01-22</time>
+                            <img src="images/blog3.png" alt="¿Son importantes las referencias en el Diseño Gráfico?" class="img-fluid">
+                            <h3 class="fw-bold pt-3">¿Son importantes las referencias en el<br>Diseño Gráfico?</h3>
+                            <p class="text-break blog-text">Es cierto que somos creativos, que podemos solucionar problemas gráficos como nadie más... Sin embargo, el uso de referencias es más que importante en todos nuestros...</p>
+                            <button class="btn button-astro-normal mb-3">Leer más</button>
+                        </div>
+                        <hr>
+                        <div class="justify-content-end d-flex">
+                            <a href="#" class="link-astro-light">SIGUIENTE PÁGINA &raquo;</a>
+                        </div>     
+                    </div>
+                    <div class="col-12 col-md-3 order-1 order-md-2">
+                        <aside>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control">
+                                <button class="btn btn-outline-light" type="button" id="button-addon2">Buscar</button>
+                              </div>
+                            <div class="d-none d-md-block d-lg-block d-xl-block d-xxl-block">
+                                <h4 class="fw-bold blog-categoria">CATEGORÍAS</h4>
+                                <a href="#" class="link-astro-light"><p>Diseño Gráfico</p></a>
+                                <a href="#" class="link-astro-light"><p>Branding</p></a>
+                                <a href="#" class="link-astro-light"><p>Fotografía</p></a>
+                                <a href="#" class="link-astro-light"><p>Packaging</p></a>
+                                <a href="#" class="link-astro-light"><p>Editorial</p></a>
+                                <h4 class="fw-bold blog-categoria">ÚLTIMOS POST</h4>
+                                <a href="#" class="link-astro-light"><p>22/01/2022 - ¿Son importantes las referencias en el Diseño Gráfico?</p></a>
+                                <a href="#" class="link-astro-light"><p>15/02/2022  - Aprende a usar Figma como todo un pro.</p></a>
+                                <a href="#" class="link-astro-light"><p>05/03/2022  - Digital vs Análogo: El debate final de la fotografía moderna.</p></a>
+                            </div>
+                        </aside>                 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid text-center text-bg-light pt-5 mt-5">
+                <h2 class="display-5 fw-bold">Hacemos tu marca realidad</h2>
+                <p class="marca-realidad-p">Llegaste al lugar indicado para distinguirte de tu competencia</p>
+                <button class="btn button-astro">Nuestros servicios</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer-bg">
+          <div class="container pb-5 mb-4">
+            <div class="row">
+              <div class="col-12 col-md-6 text-center text-md-start">
+                <h2 class="fw-bold pb-5">¿Estás listo para que<br>trabajemos juntos?</h3>
+                <p>+51 957 482 397<br>
+                hola@astrostudio.pe<br>
+                Trujillo, Perú</p>
+            </div>
+            <ul class="d-flex col-12 col-md-6 gap-5 footer-list justify-content-center justify-content-md-end pt-5 pt-md-0">
+                <li><a href="https://www.instagram.com/astrostd/" target="_blank"> <img src="images/instagram.svg" alt="Instagram"></a></li>
+                <li><a href="https://discord.gg/znmynkRH9R" target="_blank"> <img src="images/discord.svg" alt="Discord"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCjvBJXGVsSAU32ax_dtkq8A" target="_blank"> <img src="images/youtube.svg" alt="Youtube"></a></li>
+                <li><a href="https://pin.it/3JnuAAW" target="_blank"> <img src="images/pinterest.svg" alt="Pinterest"></a></li>
+                <li><a href="https://www.behance.net/astrostd" target="_blank"> <img src="images/behance.svg" alt="behance"></a></li>
+                <li><a href="https://www.facebook.com/astrostd" target="_blank"> <img src="images/facebook.svg" alt="Facebook"></a></li>
+            </ul>
+            </div>
+        </div>
+        <p class="text-center pb-3 fw-lighter fs-6">© 2022 Astro Studio | Política de Privacidad | Desarrollado por: Abraham Lozano - abralozano.com</p>
+        </section>
+      </footer>
+  
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
