@@ -1,0 +1,280 @@
+body{
+    background-image: linear-gradient(-135deg, #F7A600 ,#E40027 ,black 20%);
+    font-family: Helvetica, sans-serif;
+}
+.hero-title{
+    padding-top: 70px;
+    font-size: 96px;
+}
+.button-astro{
+    background-color: #F7A600;
+    font-weight: 700;
+    color: black;
+    padding-right: 35px;
+    padding-left: 35px;
+    border-radius: 0px;
+    margin-bottom: 70px;
+}
+.inicio-trabajos{
+    padding-top: 70px;
+}
+.link-astro{
+    text-decoration: none;
+    color: black;
+}
+.link-astro:hover{
+    color: #F7A600;
+}
+.link-astro-light{
+    text-decoration: none;
+    color: white;
+}
+.link-astro-light:hover{
+    color: #F7A600;
+}
+.link-astro-light{
+    text-decoration: none;
+    color: white;
+}
+.footer-bg{
+    background-image: linear-gradient(-135deg, #F7A600 ,#E40027 ,black 20%);
+    padding-top: 80px;
+}
+.footer-list{
+    list-style: none;
+    align-items: flex-end;
+}
+.fundador{
+    position: relative;
+}
+.fundador:hover .overlay {
+    opacity: 1;
+}
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.7)
+}
+.text-abraham{
+    color: white;
+    font-size: 18px;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.text-benjamin{
+    color: white;
+    font-size: 18px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.button-astro-normal{
+    background-color: #F7A600;
+    font-weight: 700;
+    color: black;
+    padding-right: 35px;
+    padding-left: 35px;
+    border-radius: 0px;
+}
+.marquee {
+    font-size: 30px;
+    height: 2.5vw;
+    overflow: hidden;
+    position: relative;
+}
+.marquee div {
+    display: block;
+    width: 200%;
+    position: absolute; 
+    overflow: hidden;
+    animation: marquee 12s linear infinite;
+}
+.marquee span {
+    float: left;
+    width: 50%;
+}
+.blog-text{
+    padding-right: 12rem;
+}
+.blog-categoria{
+    color: #F7A600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.contact-list{
+    list-style: none;
+    align-items: center;
+    padding-left: 0;
+}
+.terms-p{
+    padding-top: 17px;
+}
+.link-astro-light-contact{
+    color: white;
+}
+.link-astro-light-contact:hover{
+    color: #F7A600;
+}
+.offcanvas-menu-item{
+    color: white;
+}
+.offcanvas-menu-item:hover{
+    color: #F7A600;
+}
+.offcanvas-menu-bg{
+    background: #000;
+}
+.offcanvas-active{
+    color: white;
+}
+@media screen and (min-width: 576px) and  (max-width: 768px){
+    .text-abraham{
+        color: white;
+        font-size: 18px;
+        padding-top: 120px;
+        padding-bottom: 200px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .text-benjamin{
+        color: white;
+        font-size: 18px;
+        padding-top: 180px;
+        padding-bottom: 200px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+}
+@media screen and (min-width: 768px) and  (max-width: 992px){
+    .text-abraham{
+        color: white;
+        font-size: 18px;
+        padding-top: 260px;
+        padding-bottom: 200px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .text-benjamin{
+        color: white;
+        font-size: 18px;
+        padding-top: 280px;
+        padding-bottom: 200px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+}
+@media screen and (max-width: 992px){
+    .hero-title{
+        padding-top: 0px;
+        text-align: center;
+        padding-right: 35px;
+        padding-left: 35px;
+        font-size: 80px;
+    } 
+    .hero-p{
+        text-align: center;
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+    .inicio-trabajos{
+        padding-top: 0px;
+    }
+    .offcanvas-menu-item{
+        color: gray;
+        font-size: 30px;
+        padding-left: 15px;
+    }
+    .offcanvas-menu-item:hover{
+        color: #F7A600;
+    }
+    .offcanvas-active{
+        color: white;
+    }
+    .offcanvas-menu-logo{
+        padding-left: 15px;
+        padding-top: 30rem;
+    }
+    .blog-text{
+        padding-right: 0rem;
+    }
+}
+@media screen and (min-width: 992px) and  (max-width: 1200px){
+    .text-abraham{
+        color: white;
+        font-size: 16px;
+        padding-top: 90px;
+        padding-bottom: 100px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+      .text-benjamin{
+        color: white;
+        font-size: 16px;
+        padding-top: 150px;
+        padding-bottom: 200px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .blog-text{
+        padding-right: 0rem;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    .text-abraham{
+        color: white;
+        font-size: 16px;
+        padding-top: 160px;
+        padding-bottom: 100px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+      .text-benjamin{
+        color: white;
+        font-size: 16px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .blog-text{
+        padding-right: 3rem;
+    }
+}
+@media screen and (min-width: 1400px){
+    .text-abraham{
+        color: white;
+        font-size: 16px;
+        padding-top: 230px;
+        padding-bottom: 200px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+      .text-benjamin{
+        color: white;
+        font-size: 16px;
+        padding-top: 250px;
+        padding-bottom: 200px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+}
+
+@keyframes marquee {
+    0% { left: 0; }
+    100% { left: -100%; }
+}
